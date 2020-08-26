@@ -1,5 +1,5 @@
 ARG PYCHARM_VERSION=2020.2
-FROM ubuntu:18.04
+FROM ubuntu:20.04
 ARG PYCHARM_VERSION
 RUN echo "Building PyCharm $PYCHARM_VERSION with python-security"
 
